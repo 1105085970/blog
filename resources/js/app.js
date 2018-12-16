@@ -14,4 +14,9 @@ require('typeface-roboto');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
+//require('./components/Index');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Root from './components/Root';
+
+ReactDOM.render(<Root />, document.querySelector('#root'));

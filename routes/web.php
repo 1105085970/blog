@@ -11,4 +11,8 @@
 |
 */
 
-Route::get('/', 'HomeController@index')->name('index');
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
+
+Route::get('/{path?}/{path2?}', 'HomeController@index')->name('index');
