@@ -14,10 +14,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-<<<<<<< HEAD
         return view('index124');
-=======
-        return view('index123');
->>>>>>> 949f16222fe1fd58480c5ddf29ab953be203d203
     }
 }
